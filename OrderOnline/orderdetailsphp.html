@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paralax Dining-Order Online</title>
+    <!-- to add google icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- to add social media icons -->
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+
+
+    <!-- ORDER ONLINE CSS -->
+    <link rel="stylesheet" href="style_order_online.css">
+    <link rel="stylesheet" href="../css/Footer_style.css">
+
+
+    <style>
+        body {
+            background-image: url("../images/orderdetailbg.png");
+            background-size: contain;
+        }
+    </style>
+
+
+</head>
+
+<body id="deliveryBG">
+
+    <!-- OUR NAVIGATION BAR -->
+
+    <div>
+        <ul class="topnav">
+            <li>
+                <div class="closeheads">
+
+                    <img src="../images/Nature Flower Red beauty salon stamp Logo .png" width="100px">
+                </div>
+            </li>
+            <li> <a href="index.html" class="navig1">HOME </a></li>
+            <li> <a href="menu.html" class="navig1">MENU </a></li>
+            <li> <a href="Reservationphp.html" class="navig1">RESERVATION </a></li>
+            <li> <a href="REVIEWSphp.html" class="navig1">CUSTOMER REVIEWS </a></li>
+            <li> <a href="OrderOnline/orderMenu.html" class="navig1">ORDER ONLINE </a></li>
+            <li> <a href="CAREERSphp.html" class="navig1">CAREERS </a></li>
+        </ul>
+
+        <div>
+
+            <!-- Delivery Detail Form -->
+
+            <center>
+                <br>
+                <h style="font-size: 50px;"><b> <u>Order Info</u></b></h>
+            </center>
+            <br><br>
+            <form class="order" action="orderdetailsphp.php" method="post">
+                <fieldset>
+                    <legend>
+                        <h3 class="curvey">Delivery Details </h3>
+                    </legend><br><br>
+                    <div class="order-label">Full Name</div>
+                    <input type="text" name="name" placeholder="E.g. Poorva Kumari" class="input-responsive" required>
+                    <span class="feedback"></span>
+                    <div class="order-label">Phone Number</div>
+                    <input type="tel" name="phoneno" placeholder="E.g. 9843xxxxxx" class="input-responsive" required>
+                    <span class="feedback"></span>
+                    <div class="order-label">Email</div>
+                    <input type="email" name="email" placeholder="E.g. abc@xyz.com" value="" class="input-responsive" required>
+                    <span class="feedback" id="Email"></span>
+                    <div class="order-label">Address</div>
+                    <textarea name="address" rows="10" placeholder="E.g. Street, City, Country" class="input-responsive" required></textarea>
+                    <span class="feedback"></span>
+                    <input type="submit" name="submit" value="Confirm details" class="btn btn-primary btn-submit" id="submit">
+                    <br><br>
+                </fieldset>
+
+
+
+
+
+
+
+            </form>
+
+
+
+            <br><br><br><br>
+            <br><br><br><br>
+            <br><br><br><br>
+
+
+
+
+            <!-- footer of the WebPage -->
+            <footer>
+                <ul>
+                    <li class="footerli">
+                        <div class="li1">
+                            <h5 class="newfont">CONTACT US</h5>
+
+
+                            <div class="newfont" style="font-size:13px">
+                                <span class="material-icons" id="smallicon">
+                              phone
+                              </span> +91 8839574839
+                                <br>
+                                <div>
+                                    <span class="material-icons" id="smallicon">
+                              alternate_email
+                              </span> info@parallaxdining.com
+                                </div>
+                            </div>
+
+
+
+
+
+                        </div>
+
+                    </li>
+                    <li class="footerli">
+                        <div class="li2">
+                            <h5 class="newfont">FOLLOW US</h5>
+
+
+                            <!-- adding social media icons -->
+                            <div>
+
+                                <i class="fa fa-facebook circle"></i>
+                                <i class="fa fa-twitter circle"></i>
+                                <i class="fa fa-google-plus circle"></i>
+
+                            </div>
+
+
+
+                        </div>
+
+                        <li class="footerli">
+                            <div class="li3">
+                                <h5 class="newfont">DEVELOPED BY</h5>
+
+
+                                <!-- adding social media icons -->
+                                <div>
+                                    <span class="material-icons" id="smallicon">person</span> Ayushi Choudhary
+                                    <br>
+                                    <span class="material-icons" id="smallicon">
+                                      person
+                                      </span> Astha Vishnoi
+                                    <br>
+                                    <span class="material-icons" id="smallicon">
+                                          person
+                                          </span> Disha Patel
+
+
+                                </div>
+
+
+
+                            </div>
+
+                        </li>
+                </ul>
+
+            </footer>
+
+</body>
+
+</html>
